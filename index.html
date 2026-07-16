@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="GTS — Global Trading and Services. Building something exceptional." />
+    <title>GTS | Building Something Exceptional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="logo.css" />
+    <link rel="stylesheet" href="brand-refresh.css" />
+  </head>
+  <body>
+    <div class="page-glow glow-one" aria-hidden="true"></div>
+    <div class="page-glow glow-two" aria-hidden="true"></div>
+
+    <header class="site-header container">
+      <a class="brand" href="#top" aria-label="GTS home">
+        <span class="logo-frame"><img src="assets/gts-logo.png" alt="GTS — Global Trading and Services" /></span>
+      </a>
+      <button class="language-switcher" type="button" aria-label="Switch language" aria-pressed="false">
+        <span class="language-en">EN</span><span class="divider">|</span><span class="language-ar">العربية</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero container reveal">
+        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+        <p class="eyebrow" data-i18n="eyebrow">GTS · GLOBAL TRADING AND SERVICES</p>
+        <h1 data-i18n="heroTitle">Building Something <em>Exceptional.</em></h1>
+        <p class="hero-copy" data-i18n="heroCopy">Our digital experience is under development. We look forward to welcoming you soon.</p>
+        <a class="button button-primary" href="#contact" data-i18n="contactUs">Contact Us <span aria-hidden="true">→</span></a>
+        <p class="hero-note" data-i18n="heroNote">In the meantime, our team is ready to hear from you.</p>
+      </section>
+
+      <section class="divisions-section container" aria-labelledby="divisions-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="divisionEyebrow">WHAT WE DO</p>
+          <h2 id="divisions-title" data-i18n="divisionsTitle">Business Divisions</h2>
+        </div>
+        <div class="division-grid">
+          <article class="division-card reveal">
+            <div class="icon-wrap icon-trade" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 18 0A9 9 0 1 0 3 12Zm0 0h18M12 3c2.3 2.45 3.47 5.45 3.5 9 0 3.55-1.17 6.55-3.5 9-2.3-2.45-3.47-5.45-3.5-9 0-3.55 1.17-6.55 3.5-9Z"/></svg></div>
+            <h3 data-i18n="tradingTitle">Global Trading</h3>
+            <p data-i18n="tradingCopy">Reliable trading and sourcing solutions that connect businesses across borders.</p>
+          </article>
+          <article class="division-card reveal">
+            <div class="icon-wrap icon-tech" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M8.5 10.5 11 13l4.5-5"/></svg></div>
+            <h3 data-i18n="itTitle">IT Services</h3>
+            <p data-i18n="itCopy">Practical technology, cloud consulting, and digital transformation for modern organizations.</p>
+          </article>
+          <article class="division-card reveal">
+            <div class="icon-wrap icon-interior" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 21V8l9-5 9 5v13M3 12h18M8 21v-5h8v5M8 8h.01M12 8h.01M16 8h.01"/></svg></div>
+            <h3 data-i18n="interiorTitle">Interior Fit-Out Solutions</h3>
+            <p data-i18n="interiorCopy">Turnkey residential and commercial spaces, delivered with care and precision.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-layout">
+          <div class="contact-intro reveal">
+            <p class="eyebrow" data-i18n="contactEyebrow">START A CONVERSATION</p>
+            <h2 id="contact-title" data-i18n="contactTitle">Let’s Connect</h2>
+            <p data-i18n="contactCopy">Have a project or inquiry? We’d be pleased to hear from you.</p>
+            <div class="location" data-i18n="location">📍 Sultanate of Oman</div>
+          </div>
+          <form class="contact-form reveal" action="https://formspree.io/f/mnjejopa" method="post" aria-label="Contact GTS">
+            <div class="form-grid">
+              <label><span data-i18n="fullName">Full Name</span><input name="name" autocomplete="name" required /></label>
+              <label><span data-i18n="company">Company Name <small>(Optional)</small></span><input name="company" autocomplete="organization" /></label>
+              <label><span data-i18n="email">Email Address</span><input type="email" name="email" autocomplete="email" required /></label>
+              <label><span data-i18n="phone">Phone Number</span><input type="tel" name="phone" autocomplete="tel" required /></label>
+              <label class="full-width"><span data-i18n="businessDivision">Business Division</span><select name="division" required><option value="" disabled selected data-i18n="selectDivision">Select a division</option><option data-i18n="tradingTitle">Global Trading</option><option data-i18n="itTitle">IT Services</option><option data-i18n="interiorTitle">Interior Fit-Out Solutions</option><option data-i18n="generalInquiry">General Inquiry</option></select></label>
+              <label class="full-width"><span data-i18n="message">Message</span><textarea name="message" rows="4" required></textarea></label>
+            </div>
+            <button class="button button-primary" type="submit" data-i18n="sendInquiry">Send Inquiry <span aria-hidden="true">→</span></button>
+            <p class="form-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <div><strong>GTS</strong><span data-i18n="footerName">Global Trading and Services</span></div>
+      <div class="footer-contact"><a href="mailto:info@gtsgroups.com" data-i18n="emailPlaceholder">Email: info@gtsgroups.com</a><a href="tel:+96892838507" data-i18n="phonePlaceholder">Phone: +968 92838507</a><a href="https://wa.me/96892838507" data-i18n="whatsappPlaceholder">WhatsApp: +968 92838507</a></div>
+      <p>© <span id="year"></span> GTS. <span data-i18n="rights">All rights reserved.</span></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.site-header { min-height: 122px; }
+.brand { display: block; }
+.logo-frame { display: block; position: relative; overflow: hidden; width: 270px; height: 92px; }
+.logo-frame img { position: absolute; width: 330px; max-width: none; height: auto; left: -30px; top: -104px; }
+@media (max-width: 500px) {
+  .site-header { min-height: 102px; }
+  .logo-frame { width: 210px; height: 72px; }
+  .logo-frame img { width: 258px; left: -24px; top: -82px; }
+}
